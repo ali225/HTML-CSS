@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        /*ul{
+            border:2px solid black;
+            
+            background-color:pink;
+        }*/
+        /*li{
+            border:2px solid black;
+            margin-top:5px;
+            background-color:yellow;*/
+            /*list-style-type:georgian;*/
+            /*list-style-position:outside;
+            list-style-image:url(up/tick.png);
+        }*/
+            div{
+                text-align:center;
+            }
+        li{
+            list-style:none;
+            width:100px;
+            background-color:yellow;
+            display:inline-block;
+            text-align:center;
+            padding:10px;
+        }
+        li:hover{
+            background-color:blue;
+            cursor:pointer;
+            color:white;
+        }
+        #contactmenu
+        {
+            display:none;
+        }
+        
+        
+         #contactmenu li {
+            list-style: none;
+            width: 100px;
+            background-color: pink;
+            display: inline-block;
+            text-align: center;
+           
+            /*padding: 10px;*/
+        }
+
+             #contactli:hover #contactmenu{
+                 display:block;
+             }
+            
+            
+            
+            
+            
+             #contactmenu li:hover {
+                background-color: magenta;
+                cursor: pointer;
+                color: white;
+            }
+
+             *{
+                 padding:0;
+                 margin:0;
+             }
+        #contactli{
+            position:relative;
+        }
+        #contactmenu{
+            position:absolute;
+            left:0;
+            top:38px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Login to FaceBook</li>
+            <li id="contactli">Login to Twitter
+                <!-- <ul id="contactmenu"> -->
+                    <!-- <li>Mansoura</li> -->
+                    <!-- <li>Alex</li> -->
+                    <!-- <li>Smart</li> -->
+                <!-- </ul> -->
+            </li>
+            <li>About</li>
+        </ul>
+    </div>
+</body>
+</html>
